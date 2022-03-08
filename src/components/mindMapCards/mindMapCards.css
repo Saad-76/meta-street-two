@@ -1,0 +1,18 @@
+.mindmap-section-padding-top{
+    padding-top: 90px;
+    margin-top: 40%;
+
+    
+}
+.cards-margin-top{
+    margin-top: 30px;
+}
+@media (max-width: 992px){
+    .mindmap-section-padding-top{
+        padding-top:-5px;
+        margin-top: 20%;
+    
+        
+    }
+
+}

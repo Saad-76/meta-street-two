@@ -1,0 +1,75 @@
+.manifesto-main-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+.manifesto-image-setion-inner{
+    height: 400px;
+
+}
+.manifesto-content-section{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    line-height: 3;
+    padding-top: 6%;
+    text-align: justify;
+
+
+    
+}
+.manifesto-content-section p{
+    max-width: 450px;
+    /* margin-top: 20%; */
+
+}
+.manifesto-pad-top{  
+    
+ /* padding: 50px; */
+
+
+}
+.manifesto-content-section h3{
+    font-weight: 700;
+    /* display: inline-block; */
+    background-image: linear-gradient(135deg,#846ff4,#f17674);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.manifesto-heading-top{
+    margin-left: 34px;
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+   
+    .manifesto-main-style{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        padding-bottom: 50px;
+    
+    }
+    .manifesto-content-section p{
+        /* max-width: 450px;
+        margin-top: 10%; */
+    
+    }
+    .manifesto-image-setion-inner{
+        height: 309px;
+    
+    }
+    .manifesto-image-setion{
+        text-align: center;
+    }
+  }

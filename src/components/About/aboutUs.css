@@ -1,0 +1,116 @@
+/* .flex-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-field-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+text-align: justify;
+max-width: 500px;
+}
+.about-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-top-pad{
+    padding-top: 100px;
+    }
+    .about-content-pad{
+   padding-bottom: 60px;
+    
+    }
+
+.video_section-style{
+    height: 273px;
+    margin-left: 40px;
+    margin-top: 48px;
+  
+    border-radius: 12px;
+    background-size: cover;
+}
+.about-Image{
+    max-width: 90%;
+    height: auto;
+    margin-top:-100px;
+} */
+.about-main-section-style{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.about-content-section {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    padding-top: 10%;
+    text-align: justify;
+
+    /* margin-top: 10%; */
+    /* text-align: justify; */
+}
+.about-content-section h3{
+    font-weight: 700;
+    /* display: inline-block; */
+    background-image: linear-gradient(135deg,#846ff4,#f17674);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.about-content-section p{
+    max-width: 450px;
+}
+.about-top-pad{
+   padding: 50px;
+}
+.about-top-descrip{
+    text-align: center;
+}
+.about-heading-top{
+    margin-left: 34px;
+
+}
+.para-content{
+    padding-top: 20px;
+
+}
+.about-image img{
+    height: 400px;
+    /* width: 400px; */
+}
+
+@media only screen and (max-width: 900px) {
+   
+    .about-main-section-style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .about-top-pad {
+        padding: 0;
+        /* padding: 50px; */
+    }
+    .about-image img{
+        height: 309px;
+        /* width: 400px; */
+    }
+    .about-image{
+      text-align: center;
+    }
+ 
+
+    
+  }

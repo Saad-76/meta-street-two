@@ -1,0 +1,105 @@
+.artist-content-main{
+   display: flex;
+   display: flex!important;
+   flex-direction: column;
+   align-items: center;
+   max-width: 450px;
+
+}
+.artist-content-main p{
+    text-align: center;
+}
+.team-content-main{
+    display: flex;
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: justify;  */
+    max-width: 450px;
+}
+.team-content-main p{
+    text-align: center;
+}
+.artist-main-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+
+    /* text-align: center; */
+    font-weight: bold;
+    /* display: inline-block; */
+    color: #846FF4;
+    /* background-image: linear-gradient(135deg, #846FF4 0%, #F17674 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -apple--text-fill-color: transparent;
+    -apple-background-clip: text;
+    -epub-text-fill-color: transparent;
+    -epub-background-clip: text; */
+    background-clip: text;
+    /* display: inline-block; */
+    /* background-image: linear-gradient(135deg, #846FF4 0%, #F17674 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -apple--text-fill-color: transparent;
+    -apple-background-clip: text;
+    -epub-text-fill-color: transparent;
+    -epub-background-clip: text;
+    background-clip: text; */
+    /* text-align: center; */
+    /* text-fill-color: transparent; */
+}
+
+
+.team-main-heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    font-weight: bold;
+    /* display: inline-block; */
+    color: #846FF4;
+    /* background-image: linear-gradient(135deg, #846FF4 0%, #F17674 100%); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -apple--text-fill-color: transparent;
+    -apple-background-clip: text;
+    -epub-text-fill-color: transparent;
+    -epub-background-clip: text; */
+    background-clip: text;
+
+}
+.team-artist-main{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 80px 0px;
+
+}
+.artist-content-inner{
+    padding-top: 20px;
+}
+.team-content-inner{
+    padding-top: 20px;
+
+}
+.artist-content-main img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 962px) {
+    .team-artist-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 0px;
+    
+    }
+  }
